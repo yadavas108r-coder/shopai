@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+body { @apply bg-bg font-inter text-gray-800; }
+.card { @apply bg-white rounded-2xl shadow-sm p-4; }
+.btn { @apply px-4 py-2 rounded-xl shadow text-white bg-primary; }
